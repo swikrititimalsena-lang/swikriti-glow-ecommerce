@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+body {
+    background: #f9f5f7;
+    color: #333;
+}
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+}
+header {
+    background: #d96c8a;
+    color: white;
+    padding: 15px 0;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.nav h1 a,
+.nav a {
+    color: white;
+    text-decoration: none;
+}
+.nav nav a {
+    margin-left: 15px;
+}
+.hero {
+    background: white;
+    padding: 40px;
+    margin: 20px 0;
+    text-align: center;
+    border-radius: 10px;
+}
+.hero h2 {
+    margin-bottom: 10px;
+}
+.btn {
+    display: inline-block;
+    padding: 10px 16px;
+    background: #d96c8a;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.btn:hover {
+    opacity: 0.92;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    margin: 20px 0;
+}
+.card {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.card h3 {
+    margin: 10px 0;
+}
+form {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+form input, form select, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    margin: 20px 0;
+}
+.table th, .table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+.table th {
+    background: #f1d9e0;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    background: #d96c8a;
+    color: white;
+}
+.message {
+    background: #e9ffe9;
+    border: 1px solid #8bc48b;
+    padding: 10px;
+    margin: 15px 0;
+    border-radius: 6px;
+}
+.error {
+    background: #ffe9e9;
+    border: 1px solid #d27f7f;
+    padding: 10px;
+    margin: 15px 0;
+    border-radius: 6px;
+}
+.admin-links .btn {
+    margin-right: 8px;
+    margin-bottom: 8px;
+}
